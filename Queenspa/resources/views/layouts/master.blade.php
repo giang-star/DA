@@ -8,7 +8,7 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <title> @yield('title') - {{ config('app.name') }} </title>
-  <link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/png">
+  <link rel="icon" href="{{ asset('images/3163173.png') }}" type="image/png">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -22,6 +22,9 @@
   <link rel="stylesheet" href="{{ asset('common/css/owl.carousel.min.css') }}">
   <link rel="stylesheet" href="{{ asset('common/css/owl.theme.default.min.css') }}">
   <link rel="stylesheet" href="{{ asset('common/css/sweetalert2.min.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -61,9 +64,9 @@
     <!-- Header -->
     @include('layouts.header')
 
-    <div class="container">
+    <div class="container-fuild">
       <!-- Site Content -->
-      <div class="site-content">
+      <div class="site-content ">
         @yield('content')
       </div>
     </div>

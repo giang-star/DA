@@ -209,7 +209,7 @@ class ProductController extends Controller
     $product->name = $request->name;
     $product->producer_id = $request->producer_id;
     $product->sku_code = $request->sku_code;
-    $product->monitor = $request->monitor;
+    // $product->monitor = $request->monitor;
     // $product->front_camera = $request->front_camera;
     // $product->rear_camera = $request->rear_camera;
     // $product->CPU = $request->CPU;
@@ -302,7 +302,7 @@ class ProductController extends Controller
   public function edit($id)
   {
     $producers = Producer::select('id', 'name')->orderBy('name', 'asc')->get();
-    $product = Product::select('id', 'producer_id', 'name', 'image', 'sku_code', 'monitor','OS', 'information_details', 'product_introduction')
+    $product = Product::select('id', 'producer_id', 'name', 'image', 'sku_code','OS', 'information_details', 'product_introduction')
     ->whereHas('product_details', function (Builder $query) {
       $query->where('import_quantity', '>', 0);
     })->where('id', $id)->with([
@@ -428,7 +428,7 @@ class ProductController extends Controller
     $product->name = $request->name;
     $product->producer_id = $request->producer_id;
     $product->sku_code = $request->sku_code;
-    $product->monitor = $request->monitor;
+    // $product->monitor = $request->monitor;
     // $product->front_camera = $request->front_camera;
     // $product->rear_camera = $request->rear_camera;
     // $product->CPU = $request->CPU;
@@ -436,7 +436,7 @@ class ProductController extends Controller
     // $product->RAM = $request->RAM;
     // $product->ROM = $request->ROM;
     $product->OS = $request->OS;
-    $product->pin = $request->pin;
+    // $product->pin = $request->pin;
 
     if($request->hasFile('image')){
       $image = $request->file('image');

@@ -93,7 +93,7 @@
                     </div>
                     <!-- /.chart-responsive -->
                     <p class="text-center">
-                      <i>Hình 2: Thị phần sản phẩm bán được theo nhà sản xuất</i>
+                      <i>Hình 2: Thị phần sản phẩm bán được theo danh mục sản phẩm</i>
                     </p>
                   </div>
                   <!-- /.col -->
@@ -104,7 +104,7 @@
                     </div>
                     <!-- /.chart-responsive -->
                     <p class="text-center">
-                      <i>Hình 3: Thị phần doanh thu theo nhà sản xuất</i>
+                      <i>Hình 3: Thị phần doanh thu theo danh mục sản phẩm</i>
                     </p>
                   </div>
                   <!-- /.col -->
@@ -115,7 +115,7 @@
                     </div>
                     <!-- /.chart-responsive -->
                     <p class="text-center">
-                      <i>Hình 4: Thị phần lợi nhuận theo nhà sản xuất</i>
+                      <i>Hình 4: Thị phần lợi nhuận theo danh mục sản phẩm</i>
                     </p>
                   </div>
                   <!-- /.col -->

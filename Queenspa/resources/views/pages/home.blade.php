@@ -44,7 +44,7 @@
         </div> --}}
       </div>
     </section>
-    <section class="section-favorite-products">
+    <section class="section-favorite-products container" style="padding: 0">
       <div class="section-header">
         <h2 class="section-title">SẢN PHẨM ƯA THÍCH</h2>
       </div>

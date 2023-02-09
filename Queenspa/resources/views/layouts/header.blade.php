@@ -42,7 +42,7 @@
                 <div class="dropdown-menu">
                   <ul class="dropdown-menu-item">
                     <li>
-                      <h4>{{ __('header.Producer') }}</h4>
+
                       <ul class="dropdown-menu-subitem">
                         @foreach($producers as $producer)
                           <li class="{{ Helper::check_param_active('producer_page', $producer->id) }}"><a href="{{ route('producer_page', ['id' => $producer->id]) }}" title="{{ $producer->name }}">{{ $producer->name }}</a></li>

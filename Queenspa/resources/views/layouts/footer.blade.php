@@ -10,7 +10,7 @@
             <div class="widget-content">
               <p><b><i class="fas fa-mobile-alt"></i> Hotline:</b> <a href="tel:(+84) 396705838">(+84)396705838</a></p>
               <p><b><i class="fas fa-envelope"></i> Email:</b> <a href="mailto:Queenspa@gmail.com" rel="nofollow">Queenspa@gmail.com</a></p>
-              <p><b><i class="fas fa-store-alt"></i> Địa chỉ:</b> {{ __('footer.address') }}</p>
+              <p><b><i class="fas fa-store-alt"></i> Địa chỉ:</b>Yên Dũng - Bắc Giang</p>
             </div>
           </div>
         </div>
@@ -43,7 +43,8 @@
                   <div class="col-md-3 col-sm-3 col-xs-3 padding-lr5" title="{{ __('footer.cod') }}"><div class="payment"><img src="{{ asset('images/cod.png') }}"></div></div>
                 </li>
                 <li>
-                  <div class="payment-service" title="{{ __('footer.nganluong') }}"><img src="{{ asset('images/nganluong.png') }}"></div>
+                  <div class="payment-service" title="{{ __('footer.nganluong') }}"><img src="{{ asset('images/Nganluong.svg') }}"></div>
+                </li>
               </ul>
             </div>
           </div>
@@ -62,7 +63,7 @@
   </div>
   <div class="footer-bottom">
     <div class="copyright text-center">
-      Copyright &copy 2019 Hoang Lam. All rights reserved.
+      Copyright &copy 2023 Nguyễn văn Giang dev. All rights reserved.
     </div>
   </div>
 </footer>

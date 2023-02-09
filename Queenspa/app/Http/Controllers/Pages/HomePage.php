@@ -24,7 +24,7 @@ class HomePage extends Controller
   public function __invoke()
   {
 
-    $products = Product::select('id','name', 'image', 'monitor', 'OS', 'rate')
+    $products = Product::select('id','name', 'image', 'OS', 'rate')
     ->whereHas('product_detail', function (Builder $query) {
         $query->where('quantity', '>', 0);
     })
@@ -32,7 +32,7 @@ class HomePage extends Controller
       $query->select('id', 'product_id', 'quantity', 'sale_price', 'promotion_price', 'promotion_start_date', 'promotion_end_date')->where('quantity', '>', 0)->orderBy('sale_price', 'ASC');
     }])->latest()->limit(9)->get();
 
-    $favorite_products = Product::select('id','name', 'image', 'monitor', 'OS', 'rate')
+    $favorite_products = Product::select('id','name', 'image', 'OS', 'rate')
     ->whereHas('product_detail', function (Builder $query) {
         $query->where('quantity', '>', 0);
     })

@@ -46,9 +46,9 @@ class ProductsController extends Controller
 
       $query_products->joinSub($min_price_query, 'min_price_query', function ($join) {
         $join->on('products.id', '=', 'min_price_query.product_id');
-      })->select('id','name', 'image', 'monitor',  'OS', 'rate')->orderBy('min_sale_price', $request->input('price'));
+      })->select('id','name', 'image',  'OS', 'rate')->orderBy('min_sale_price', $request->input('price'));
     } else {
-      $query_products->select('id','name', 'image', 'monitor',  'OS', 'rate')->latest();
+      $query_products->select('id','name', 'image',  'OS', 'rate')->latest();
     }
 
     if($request->has('type') && $request->input('type') == 'vote')
@@ -99,9 +99,9 @@ class ProductsController extends Controller
 
       $query_products->joinSub($min_price_query, 'min_price_query', function ($join) {
         $join->on('products.id', '=', 'min_price_query.product_id');
-      })->select('id','name', 'image', 'monitor',  'OS', 'rate')->orderBy('min_sale_price', $request->input('price'));
+      })->select('id','name', 'image',  'OS', 'rate')->orderBy('min_sale_price', $request->input('price'));
     } else {
-      $query_products->select('id','name', 'image', 'monitor',  'OS', 'rate')->latest();
+      $query_products->select('id','name', 'image',  'OS', 'rate')->latest();
     }
 
     if($request->has('type') && $request->input('type') == 'vote')
@@ -131,7 +131,7 @@ class ProductsController extends Controller
       ['at_home_page', '=', false]
     ])->latest()->limit(5)->get(['product_id', 'title', 'image']);
 
-    $product = Product::select('id', 'producer_id', 'name', 'sku_code', 'monitor',  'OS', 'rate', 'information_details', 'product_introduction')
+    $product = Product::select('id', 'producer_id', 'name', 'sku_code',  'OS', 'rate', 'information_details', 'product_introduction')
       ->whereHas('product_details', function (Builder $query) {
         $query->where('import_quantity', '>', 0);
       })

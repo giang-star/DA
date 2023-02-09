@@ -28,7 +28,7 @@
               <div style="width: 30px; margin-right: 5px;">
                 <img src="{{ asset('images/favicon.png') }}" alt="PhoneStore Logo" style="width: 100%; height: auto; object-fit: cover;">
               </div>
-              <div style="color: #f33;">PhoneStore</div>
+              <div style="color: #f33;">Queenspa</div>
             </div>
             <small class="pull-right">Date: {{ date("d/m/Y") }}</small>
           </h2>
@@ -42,10 +42,10 @@
             From: <br>
             <br>
             <address>
-              <b>Admin PhoneStore</b><br>
+              <b>Admin Queenspa</b><br>
               Phone: (+84) 967 999 999<br>
-              Email: phonestore@gmail.com<br>
-              Address: Số 1 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội.
+              Email: nvgianga9@gmail.com<br>
+              Address: Yên dũng -Bắc Giang.
             </address>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-3">

@@ -58,7 +58,7 @@ class ActiveAccountNotification extends Notification
         return (new MailMessage)
             ->greeting('Hello '.$notifiable->name.'.')
             ->subject('Active Account Notification')
-            ->line('Email này đã được liên kết với một tài khoản trên hệ thống website PhoneStore. Vui lòng click vào nút bên dưới để kích hoạt.')
+            ->line('Email này đã được liên kết với một tài khoản trên hệ thống website Queenspa. Vui lòng click vào nút bên dưới để kích hoạt.')
             ->action('Active Account', route('active_account', ['token' => $this->token]));
     }
 

@@ -35,7 +35,8 @@
               <div class="note">
                 <div class="note-icon"><i class="fas fa-info-circle"></i></div>
                 <div class="note-content">
-                  <p>website <strong>PhoneStore</strong> là một sản phẩm của đồ án tốt nghiệp đề tài: <i>Thiết kế website thương mại điện tử kinh doanh điện thoại di động chạy được trên cả máy tính và thiết bị di động</i>. Được thực hiện bởi sinh viên Hoàng Tùng Lâm - ĐH BKHN. Mọi hoạt động mua sắm trên website đều không có giá trị !</p>
+                  <p>Ưebsite <strong>Queenspa</strong> là một sản phẩm của đồ án tốt nghiệp đề tài: <i>Thiết kế website thương mại điện tử kinh doanh điện thoại di động chạy được trên cả máy tính và thiết bị di động</i>. Được thực hiện bởi sinh viên <span style="color:fuchsia
+                  ">NGUYỄN VĂN GIANG-KTPMK17B</span>. Mọi hoạt động mua sắm trên website đều không có giá trị !</p>
                 </div>
               </div>
               <div class="content">
@@ -43,7 +44,7 @@
                 <p>Với việc thương mại điện tử hóa, mọi rào cản về không gian địa lý hay thời gian làm việc đều được xoá bỏ. Các sản phẩm được giới thiệu rõ dàng dành cho không chỉ những người mua hàng ở khu vực đó mà trên cả đất nước Việt Nam, thậm chí là người dân trên toàn thế giới. Người bán giờ đây không chỉ còn ngồi một chỗ chờ khách hàng tìm đến mà đã tích cực chủ động đứng lên và tìm đến khách hàng. Và khi số lượng khách hàng tăng lên thì nó cũng tỉ lệ thuận với việc doanh thu sẽ tăng, đó chính là điều mà mọi doanh nghiệp đều hướng tới.</p>
                 <p>Không chỉ dừng lại vậy, thương mại điện tử còn tạo ra những cơ hội làm ăn cho những ai không đủ vốn bởi: bạn không phải mất tiền thuê mặt bằng ở những nơi đắt đỏ, thuê nhân viên, đầu tư nhiều cho việc chạy quảng cáo… mà chỉ cần đầu tư, chăm chút kỹ lưỡng cho một trang web thương mại điện tử với đầy đủ thông tin về doanh nghiệp của bạn cũng như các tính năng hỗ trợ tìm kiếm mua hàng, đưa hình ảnh, thông tin về sản phẩm. Từ đó, khách hàng sẽ có thể tiếp cận thông tin chủ động hơn, nhờ tư vấn và mua bán dễ dàng, chính xác và nhanh gọn hơn. Với tình hình cạnh tranh cực kỳ “khốc liệt” như hiện nay giữa các doanh nghiệp thì rất khó để có thể độc quyền một sản phẩm nào, bởi vậy nơi chinh phục được khách hàng chính là nơi làm họ cảm thấy thoải mái nhất, hài lòng nhất.</p>
                 <p>Bằng việc thương mại điện tử hóa, tất cả các doanh nghiệp từ lớn, vừa và nhỏ đều có thể thoả sức sáng tạo, cạnh tranh công bằng. Những ý tưởng kinh doanh mới táo bạo, những chiến lược tiếp thị, khuyến mại… đều có thể được áp dụng và hướng trực tiếp đến khách hàng nhanh nhất mà không tốn quá nhiều chi phí bởi tất cả vẫn được gói gọn trong một trang thương mại điện tử (website).</p>
-                <p>Trên những cơ sở đó, đồ án tốt nghiệp của em thực hiện đề tài <i>“Xây dựng website thương mại điện tử PhoneStore”</i> nhằm giải quyết các nhu cầu quảng bá và kinh doanh sản phẩm hướng trực tiếp đến khách hàng trên mọi miền đất nước, thậm chí là quốc tế.</p>
+                <p>Trên những cơ sở đó, đồ án tốt nghiệp của em thực hiện đề tài <i>“Xây dựng website bán mĩ phẩm Queenspa”</i> nhằm giải quyết các nhu cầu quảng bá và kinh doanh sản phẩm hướng trực tiếp đến khách hàng trên mọi miền đất nước, thậm chí là quốc tế.</p>
               </div>
             </div>
           </div>

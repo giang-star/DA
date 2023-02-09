@@ -1,3 +1,15 @@
+html {
+    overflow-x:scroll;
+    
+  }
+  body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f0f0;
+      font-size: 16px;
+    font-weight: 400;
+      color: #000;
+      overflow-x: scroll;
+  }
 @media screen and (min-width: 1366px) {
   ::-webkit-scrollbar {
     display: none;
@@ -5,7 +17,7 @@
 }
 
 html {
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -13,7 +25,7 @@ body {
 	font-size: 16px;
   font-weight: 400;
 	color: #000;
-	overflow-x: hidden;
+	overflow-x: scroll;
 }
 .hd-bg-white {
 	background-color:  #fff;
@@ -91,8 +103,8 @@ body {
   outline: none;
 }
 .section-filter button {
-  background: rgb(229, 181, 169);
-  color: #fff;
+  background:#eaea;
+  color: #000;
   text-shadow: none;
   border: none;
   float: right;
@@ -219,13 +231,14 @@ body {
 	width: 100%;
 	padding-right: 40px;
   border-radius: 5px !important;
-  box-shadow: 1px 1px 6px 0px rgba(50,50,50,0.76);
-  -webkit-box-shadow: 1px 1px 6px 0px rgba(50,50,50,0.76);
+  /* box-shadow: 1px 1px 6px 0px rgba(50,50,50,0.76);
+  -webkit-box-shadow: 1px 1px 6px 0px rgba(50,50,50,0.76); */
   -moz-box-shadow: 1px 1px 6px 0px rgba(50,50,50,0.76);
   border: none;
   padding-left: 7px;
   height: 40px;
   line-height: 40px;
+  border: 1px solid #eaea;
 }
 .header .search button[type='submit'] {
   background-color: transparent;
@@ -608,7 +621,7 @@ body {
   position: relative;
   margin-top: 15px;
   background-color: #fff;
-  border: 1px solid #f30;
+  border-top: 1px solid rgb(0, 0, 0);
 }
 .section-favorite-products .owl-stage-outer {
   padding-top: 50px;
@@ -626,8 +639,8 @@ body {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
-  background-color: #f30;
+  color: #000000;
+  background-color: #eaeaea;
   padding: 0 25px;
   line-height: 40px;
   height: 40px;
@@ -640,7 +653,7 @@ body {
   right: 100%;
   top: 0;
   bottom: 0;
-  border-right: 20px solid #f30;
+  border-right: 20px solid #eaeaea;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
 }
@@ -650,7 +663,7 @@ body {
   left: 100%;
   top: 0;
   bottom: 0;
-  border-left: 20px solid #f30;
+  border-left: 20px solid #eaeaea;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
 }

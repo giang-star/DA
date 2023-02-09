@@ -27,7 +27,7 @@ class SearchController extends Controller
               ['at_home_page', '=', false]
             ])->latest()->limit(5)->get(['product_id', 'title', 'image']);
 
-            $products = Product::select('id','name', 'image', 'monitor',  'OS','rate')
+            $products = Product::select('id','name', 'image',  'OS','rate')
             ->where('name', 'LIKE', '%' . $request->search_key . '%')
             ->whereHas('product_detail', function (Builder $query) {
                 $query->where('quantity', '>', 0);
